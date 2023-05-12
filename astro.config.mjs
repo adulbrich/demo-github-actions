@@ -9,4 +9,6 @@ export default defineConfig({
   integrations: [tailwind(), sitemap(), prefetch()],
   output: "server",
   adapter: vercel(),
+  site: "https://adulbrich.github.io",
+  base: "/astro-portfolio-demo",
 });

@@ -6,5 +6,5 @@ import prefetch from "@astrojs/prefetch";
 export default defineConfig({
   integrations: [tailwind(), sitemap(), prefetch()],
   site: "https://adulbrich.github.io",
-  base: "/astro-portfolio-demo",
+  base: "/demo-github-actions",
 });

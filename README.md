@@ -12,7 +12,6 @@ We cover the following use cases:
 
 1. Deploy the site to GitHub Pages
 2. Deploy the site to AWS S3 (todo)
-3. Deploy the site to AWS EC2 (todo)
 
 ## Astro Information
 

@@ -22,10 +22,10 @@ import Card from "../components/Card.astro";
       </p>
     </div>
     <ul role="list" class="grid grid-cols-1 gap-4 p-0">
-      <Card href="/demo-github-actions/cs312/" title="CS 312" body="System Administration" />
-      <Card href="/demo-github-actions/cs362/" title="CS 362" body="Software Engineering II" />
+      <Card href=`${import.meta.env.BASE_URL}/cs312/` title="CS 312" body="System Administration" />
+      <Card href=`${import.meta.env.BASE_URL}/cs362/` title="CS 362" body="Software Engineering II" />
       <Card
-        href="/demo-github-actions/cs46x/"
+        href=`${import.meta.env.BASE_URL}/cs46x/`
         title="CS 461, 462, 463"
         body="Senior Software Engineering Project"
       />
